@@ -1,11 +1,19 @@
 {
-     "applinks": {
-       "apps": [],
-       "details": [
-         {
-           "appID": "YOUR_TEAM_ID.YOUR_BUNDLE_ID",
-           "paths": ["/auth/callback", "/auth/*"]
-         }
-       ]
-     }
-   }
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "A4LK73RJS6.com.keithondra.lokal",
+        "paths": [
+          "/auth/*",
+          "/*"
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "A4LK73RJS6.com.keithondra.lokal"
+    ]
+  }
+}
